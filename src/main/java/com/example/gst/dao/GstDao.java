@@ -14,7 +14,7 @@ public class GstDao {
 GstRepository gr;
 public String postGst( List<Gst> a) {
 	gr.saveAll(a);
-	return "posted successfully";
+	return "update successfully";
 }
 public int getper(int a) {
 	return gr.getper(a);
